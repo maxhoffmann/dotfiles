@@ -1,0 +1,17 @@
+# Install native apps
+# Usage: `brew bundle Caskfile`
+
+install caskroom/cask/brew-cask
+tap caskroom/versions
+
+cask install sublime-text 2> /dev/null
+cask install google-chrome 2> /dev/null
+cask install google-chrome-canary 2> /dev/null
+cask install firefox 2> /dev/null
+cask install opera 2> /dev/null
+cask install slack 2> /dev/null
+cask install imagealpha 2> /dev/null
+cask install imageoptim 2> /dev/null
+cask install dropbox 2> /dev/null
+cask install virtualbox 2> /dev/null
+cask install tower 2> /dev/null
