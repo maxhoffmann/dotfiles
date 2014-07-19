@@ -29,7 +29,7 @@ git clone https://github.com/maxhoffmann/dotfiles.git && cd dotfiles && source s
 Set some OS X default settings:
 ```bash
 ./.osx
-``
+```
 
 Setup Sublime:
 ```bash
