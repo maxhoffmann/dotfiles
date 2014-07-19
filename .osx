@@ -31,14 +31,14 @@ sudo nvram SystemAudioVolume=" "
 for domain in ~/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
 	defaults write "${domain}" dontAutoLoad -array \
 		"/System/Library/CoreServices/Menu Extras/TimeMachine.menu" \
+		"/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
 		"/System/Library/CoreServices/Menu Extras/Volume.menu"
-		# "/System/Library/CoreServices/Menu Extras/User.menu"
 done
 defaults write com.apple.systemuiserver menuExtras -array \
-	"/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
 	"/System/Library/CoreServices/Menu Extras/AirPort.menu" \
 	"/System/Library/CoreServices/Menu Extras/Battery.menu" \
-	"/System/Library/CoreServices/Menu Extras/Clock.menu"
+	"/System/Library/CoreServices/Menu Extras/Clock.menu" \
+	"/System/Library/CoreServices/Menu Extras/User.menu"
 
 # Set highlight color to green
 # defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
@@ -347,8 +347,8 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 # Enable highlight hover effect for the grid view of a stack (Dock)
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
-# Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 36
+# Set the icon size of Dock items to 48 pixels
+defaults write com.apple.dock tilesize -int 48
 
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "scale"
@@ -548,14 +548,14 @@ sudo mdutil -E / > /dev/null
 defaults write com.apple.terminal StringEncodings -array 4
 
 # Use a modified version of the Solarized Dark theme by default in Terminal.app
-# TERM_PROFILE='Solarized Dark xterm-256color';
-# CURRENT_PROFILE="$(defaults read com.apple.terminal 'Default Window Settings')";
-# if [ "${CURRENT_PROFILE}" != "${TERM_PROFILE}" ]; then
-# 	open "${HOME}/init/${TERM_PROFILE}.terminal";
-# 	sleep 1; # Wait a bit to make sure the theme is loaded
-# 	defaults write com.apple.terminal 'Default Window Settings' -string "${TERM_PROFILE}";
-# 	defaults write com.apple.terminal 'Startup Window Settings' -string "${TERM_PROFILE}";
-# fi;
+TERM_PROFILE='Tomorrow Night Eighties';
+CURRENT_PROFILE="$(defaults read com.apple.terminal 'Default Window Settings')";
+if [ "${CURRENT_PROFILE}" != "${TERM_PROFILE}" ]; then
+	open "./Terminal/${TERM_PROFILE}.terminal";
+	sleep 1; # Wait a bit to make sure the theme is loaded
+	defaults write com.apple.terminal 'Default Window Settings' -string "${TERM_PROFILE}";
+	defaults write com.apple.terminal 'Startup Window Settings' -string "${TERM_PROFILE}";
+fi;
 
 # Enable “focus follows mouse” for Terminal.app and all X11 apps
 # i.e. hover over a window and start typing in it without clicking first
@@ -671,7 +671,7 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 ###############################################################################
 
 # Install Sublime Text settings
-# cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
+# cp -r SublimeText/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
 
 ###############################################################################
 # Twitter.app                                                                 #

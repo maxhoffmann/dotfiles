@@ -8,6 +8,7 @@ function copyToHomeDirectory() {
 	rsync -avhP --no-perms \
 		--exclude ".git/" \
 		--exclude ".DS_Store" \
+		--exclude ".osx" \
 		--exclude "setup.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE" \
