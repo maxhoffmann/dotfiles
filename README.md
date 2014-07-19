@@ -30,3 +30,8 @@ Set some OS X default settings:
 ```bash
 ./.osx
 ``
+
+Setup Sublime:
+```bash
+./sublime.sh
+```
