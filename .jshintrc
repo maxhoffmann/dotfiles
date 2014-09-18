@@ -22,7 +22,7 @@
 	"maxcomplexity": 5,
 
 	// Relaxing
-	"asi": false,
+	"asi": true,
 	"boss": false,
 	"debug": false,
 	"eqnull": true,
