@@ -47,3 +47,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # faster npm
 alias npmus="npm"
 alias npm="npm --registry http://registry.npmjs.eu/"
+
+# node-webkit
+alias nw="/Applications/node-webkit.app/Contents/MacOS/node-webkit"
