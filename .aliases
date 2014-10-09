@@ -45,8 +45,7 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
 # faster npm
-alias npmus="npm"
-alias npm="npm --registry http://registry.npmjs.eu/"
+alias npmm="npm --registry http://registry.npmjs.eu/"
 
 # node-webkit
 alias nw="/Applications/node-webkit.app/Contents/MacOS/node-webkit"
