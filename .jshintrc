@@ -1,20 +1,22 @@
 {
 	// Enforcing
 	"bitwise": true,
-	"camelcase": false,
+	"camelcase": true,
 	"eqeqeq": true,
 	"forin": false,
-	"immed": false,
+	"immed": true,
+	"freeze": true,
 	"latedef": false,
 	"newcap": false,
 	"noarg": true,
 	"noempty": true,
+	"nobsp": true,
 	"nonew": true,
 	"plusplus": false,
 	"quotmark": false,
 	"undef": true,
 	"unused": true,
-	"strict": false,
+	"strict": true,
 	"trailing": true,
 
 	"maxparams": 4,
@@ -30,13 +32,14 @@
 	"evil": false,
 	"expr": false,
 	"funcscope": true,
-	"globalstrict": false,
+	"globalstrict": true,
 	"iterator": false,
 	"lastsemic": false,
 	"laxbreak": true,
-	"laxcomma": true,
+	"laxcomma": false,
 	"loopfunc": true,
 	"multistr": false,
+	"notypeof": false,
 	"proto": false,
 	"scripturl": false,
 	"smarttabs": true,
@@ -47,12 +50,8 @@
 
 	// Environments
 	"browser": true,
-	"devel": true,
-	"node": true,
-	"worker": true,
-
-	// Globals
-	"globals": {
-		"NodeList": false
-	}
+	"browserify": true,
+	"devel": false,
+	"node": false,
+	"worker": false
 }
