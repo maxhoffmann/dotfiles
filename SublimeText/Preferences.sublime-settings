@@ -26,27 +26,28 @@
 	"folder_exclude_patterns":
 	[
 		".git",
-		".sass-cache",
-		"amaphiko-web/node_modules"
+		".sass-cache"
 	],
-	"binary_file_patterns": [
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
-		"*.dds",
-		"*.ico",
-		"*.eot",
-		"*.woff",
-		"*.woff2",
-		"*.svg",
-		"*.pdf",
-		"*.swf",
-		"*.jar",
-		"*.zip"
-	],
+  "binary_file_patterns": [
+    "*.jpg",
+    "*.jpeg",
+    "*.png",
+    "*.gif",
+    "*.ttf",
+    "*.tga",
+    "*.dds",
+    "*.ico",
+    "*.eot",
+    "*.woff",
+    "*.woff2",
+    "*.svg",
+    "*.pdf",
+    "*.swf",
+    "*.jar",
+    "*.zip",
+    "amaphiko-web/node_modules/*",
+    "mail/node_modules/*"
+  ],
 	"font_size": 18,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
