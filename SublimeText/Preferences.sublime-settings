@@ -1,34 +1,19 @@
 {
-	"auto_complete_commit_on_tab": false,
-	"auto_complete_triggers":
-	[
-		{
-			"characters": "<",
-			"selector": "text.html"
-		},
-		{
-			"characters": " ",
-			"selector": "text.html meta.tag"
-		}
-	],
-	"auto_complete_with_fields": true,
-	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Kellys (Dark) (SL).tmTheme",
-	"create_window_at_startup": false,
-	"detect_indentation": true,
-	"detect_slow_plugins": true,
-	"enable_tab_scrolling": false,
-	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
-		".DS_Store"
-	],
-	"folder_exclude_patterns":
-	[
-		".git",
-		".sass-cache"
-	],
-  "binary_file_patterns": [
+  "auto_complete_commit_on_tab": false,
+  "auto_complete_triggers":
+  [
+    {
+      "characters": "<",
+      "selector": "text.html"
+    },
+    {
+      "characters": " ",
+      "selector": "text.html meta.tag"
+    }
+  ],
+  "auto_complete_with_fields": true,
+  "binary_file_patterns":
+  [
     "*.jpg",
     "*.jpeg",
     "*.png",
@@ -44,28 +29,47 @@
     "*.pdf",
     "*.swf",
     "*.jar",
-    "*.zip",
-    "amaphiko-web/node_modules/*",
-    "mail/node_modules/*"
+    "*.zip"
   ],
-	"font_size": 18,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"index_exclude_patterns":
-	[
-		"*.log"
-	],
-	"line_padding_bottom": 9,
-	"line_padding_top": 9,
-	"open_files_in_new_window": false,
-	"shift_tab_unindent": true,
-	"tab_completion": true,
-	"tab_size": 2,
-	"theme": "Flatland Dark.sublime-theme",
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": false
+  "bold_folder_labels": true,
+  "color_scheme": "Packages/User/Kellys (Dark) (SL).tmTheme",
+  "create_window_at_startup": false,
+  "detect_indentation": true,
+  "detect_slow_plugins": true,
+  "enable_tab_scrolling": false,
+  "ensure_newline_at_eof_on_save": true,
+  "file_exclude_patterns":
+  [
+    ".DS_Store",
+    "*.map",
+    "newrelic_agent.log"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".git",
+    ".sass-cache",
+    "mail/node_modules",
+    "amaphiko-web/node_modules"
+  ],
+  "font_size": 17,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "index_exclude_patterns":
+  [
+    "*.log"
+  ],
+  "line_padding_bottom": 9,
+  "line_padding_top": 9,
+  "open_files_in_new_window": false,
+  "shift_tab_unindent": true,
+  "tab_completion": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "theme": "Flatland Dark.sublime-theme",
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false
 }
