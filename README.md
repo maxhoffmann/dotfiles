@@ -8,22 +8,21 @@ Installation
 
 Install homebrew:
 ```
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Clone repository:
+```bash
+git clone https://github.com/maxhoffmann/dotfiles.git && cd dotfiles
 ```
 
 Install Bash Utils (newest bash version etc.):
 ```bash
-brew bundle Brewfile
+./brew.sh
 ```
 
-Install Programs:
 ```bash
-brew bundle Caskfile
-```
-
-Clone repository and run setup script:
-```bash
-git clone https://github.com/maxhoffmann/dotfiles.git && cd dotfiles && source setup.sh
+source setup.sh
 ```
 
 Set some OS X default settings:
