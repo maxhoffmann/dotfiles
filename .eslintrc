@@ -6,12 +6,16 @@
   "parser": "espree",
 
   "env": {
-    "browser": false,
-    "node": false,
+    "browser": true,
+    "node": true,
     "amd": false,
     "mocha": false,
     "es6": true
   },
+
+  "plugins": [
+    "react"
+  ],
 
   "rules": {
     "no-alert": 2,
@@ -20,7 +24,7 @@
     "no-caller": 2,
     "no-catch-shadow": 2,
     "no-cond-assign": 2,
-    "no-console": 0,
+    "no-console": 2,
     "no-constant-condition": 2,
     "no-control-regex": 2,
     "no-debugger": 2,
@@ -71,6 +75,7 @@
     "no-obj-calls": 2,
     "no-octal": 2,
     "no-octal-escape": 2,
+    "no-param-reassign": 2,
     "no-path-concat": 2,
     "no-plusplus": 0,
     "no-process-env": 0,
@@ -93,7 +98,7 @@
     "no-ternary": 0,
     "no-trailing-spaces": 2,
     "no-throw-literal": 0,
-    "no-undef": 0,
+    "no-undef": 2,
     "no-undef-init": 2,
     "no-undefined": 0,
     "no-underscore-dangle": 0,
@@ -136,6 +141,7 @@
     "max-statements": [0, 10],
     "new-cap": 0,
     "new-parens": 2,
+    "newline-after-var": 0,
     "one-var": 0,
     "operator-assignment": [0, "always"],
     "padded-blocks": [0, "never"],
@@ -148,7 +154,7 @@
     "space-after-function-name": [0, "never"],
     "space-after-keywords": [2, "always"],
     "space-before-blocks": [2, "always"],
-    "space-before-function-parentheses": [2, "never"],
+    "space-before-function-paren": [2, "never"],
     "space-in-brackets": [0, "never"],
     "space-in-parens": [0, "never"],
     "space-infix-ops": 0,
@@ -162,6 +168,21 @@
     "vars-on-top": 0,
     "wrap-iife": [2, "outside"],
     "wrap-regex": 0,
-    "yoda": [2, "never"]
+    "yoda": [2, "never"],
+    "react/display-name": 0,
+    "react/jsx-boolean-value": 0,
+    "react/jsx-quotes": [0, "double", "avoid-escape"],
+    "react/jsx-no-undef": 2,
+    "react/jsx-sort-props": 0,
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1,
+    "react/no-did-mount-set-state": 0,
+    "react/no-did-update-set-state": 0,
+    "react/no-unknown-property": 2,
+    "react/no-multi-comp": 2,
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 1,
+    "react/self-closing-comp": 2,
+    "react/wrap-multilines": 2
   }
 }
