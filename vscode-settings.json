@@ -1,0 +1,14 @@
+{
+    "editor.fontSize": 20,
+    "editor.fontFamily": "Fira Code",
+    "editor.tabSize": 2,
+    "editor.lineHeight": 35,
+    "editor.fontLigatures": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.scrollBeyondLastLine": false,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "editor.renderIndentGuides": true,
+    "explorer.openEditors.visible": 0
+}
