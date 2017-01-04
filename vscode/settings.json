@@ -10,5 +10,6 @@
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
     "editor.renderIndentGuides": true,
-    "explorer.openEditors.visible": 0
+    "explorer.openEditors.visible": 0,
+    "workbench.editor.enablePreviewFromQuickOpen": false
 }
