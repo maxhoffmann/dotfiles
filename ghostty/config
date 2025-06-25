@@ -18,3 +18,5 @@ window-padding-y = 4
 theme = dark:PaulMillr,light:Raycast_Light
 adjust-cursor-thickness = 4
 cursor-opacity = 0.5
+window-height = 100
+window-width = 200
