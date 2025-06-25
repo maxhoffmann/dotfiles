@@ -16,3 +16,5 @@ font-size = 22
 window-padding-x = 12
 window-padding-y = 4
 theme = dark:PaulMillr,light:Raycast_Light
+adjust-cursor-thickness = 4
+cursor-opacity = 0.5
