@@ -13,12 +13,10 @@
 
 font-family = Iosevka Term
 font-size = 22
-adjust-cell-height = 18
-adjust-cursor-height = 1%
 adjust-cursor-thickness = 4
 window-padding-x = 12
 window-padding-y = 4
-theme = dark:PaulMillr,light:Monokai Pro Light Sun
+theme = dark:Monokai Pro Spectrum,light:Monokai Pro Light Sun
 cursor-opacity = 0.5
 window-height = 60
 window-width = 130
