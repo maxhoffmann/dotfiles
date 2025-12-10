@@ -1,0 +1,367 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-0": "editor::UnfoldAll"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-cmd-alt-ö": "pane::ActivatePreviousItem",
+      "ctrl-cmd-alt-ä": "pane::ActivateNextItem"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-1": [
+        "editor::FoldAtLevel",
+        1
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-2": [
+        "editor::FoldAtLevel",
+        2
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-3": [
+        "editor::FoldAtLevel",
+        3
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-4": [
+        "editor::FoldAtLevel",
+        4
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-5": [
+        "editor::FoldAtLevel",
+        5
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-6": [
+        "editor::FoldAtLevel",
+        6
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-7": [
+        "editor::FoldAtLevel",
+        7
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-8": [
+        "editor::FoldAtLevel",
+        8
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-9": [
+        "editor::FoldAtLevel",
+        9
+      ]
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-1": [
+        "workspace::ActivatePane",
+        0
+      ]
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-2": [
+        "workspace::ActivatePane",
+        1
+      ]
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-3": [
+        "workspace::ActivatePane",
+        2
+      ]
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-4": [
+        "workspace::ActivatePane",
+        3
+      ]
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-5": [
+        "workspace::ActivatePane",
+        4
+      ]
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-6": [
+        "workspace::ActivatePane",
+        5
+      ]
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-7": [
+        "workspace::ActivatePane",
+        6
+      ]
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-8": [
+        "workspace::ActivatePane",
+        7
+      ]
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-9": [
+        "workspace::ActivatePane",
+        8
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-1": [
+        "pane::ActivateItem",
+        0
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-2": [
+        "pane::ActivateItem",
+        1
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-3": [
+        "pane::ActivateItem",
+        2
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-4": [
+        "pane::ActivateItem",
+        3
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-5": [
+        "pane::ActivateItem",
+        4
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-6": [
+        "pane::ActivateItem",
+        5
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-7": [
+        "pane::ActivateItem",
+        6
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-8": [
+        "pane::ActivateItem",
+        7
+      ]
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-9": [
+        "pane::ActivateItem",
+        8
+      ]
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-9": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-8": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-7": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-6": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-5": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-4": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-3": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-2": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-1": null
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-9": null
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-8": null
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-7": null
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-6": null
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-5": null
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-4": null
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-3": null
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-2": null
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-1": null
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-alt-cmd-ü": "workspace::ActivateNextPane"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-alt-cmd-p": "workspace::ActivatePreviousPane"
+    }
+  }
+]
